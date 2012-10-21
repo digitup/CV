@@ -1,0 +1,359 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700|Yanone+Kaffeesatz:400,700|Open+Sans:400,700,600);
+
+/*
+ * @author: Abbe Abboud
+ * @date: 2012-07
+ */
+ 
+body {
+	font-size: 12px;
+	color: #333;
+	background-color: #6699FF;
+}
+
+/* HEADINGS */
+h1, h2, h3, h4, h5 {
+	font-weight:bold;
+	color: #D44413;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+h1 { 
+	font-size:6em;
+	font-family: 'Oswald', Tahoma sans-serif;
+	text-transform:uppercase;
+	}
+h2 { 
+	font-size:34px;
+	
+	}
+h3 { 
+	font-size:30px;
+
+	text-transform:uppercase;
+	}
+h4 { 
+	font-size:28px;
+	color: #333;
+	
+	}
+h5 { 
+	font-size:22px;
+	color:#333;
+	font-weight:200;
+	}
+
+
+
+#photo {
+float: left;
+background: url(../img/bg_photo_btm.png) no-repeat center bottom;
+padding-bottom: 16px;
+}
+#photo img { border:5px solid #fff; }
+
+#footer-right {
+	
+	float:right;
+}
+
+/* MAIN & SOCIAL ICONS PANELS */
+.social_panel {
+	float:right;
+	background:#6699FF;
+	padding:8px 70px 8px 8px;
+	-webkit-border-top-left-radius: 6px;
+	-webkit-border-bottom-left-radius: 6px;
+	-moz-border-radius-topleft: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	border-top-left-radius: 6px;
+	border-bottom-left-radius: 6px;
+}
+.main_panel li, .social_panel li {
+	float:left;
+	margin-right:8px;
+	list-style: none;
+}
+.main_panel {
+	float:right;
+	background:#6699FF;
+	padding:8px;
+	margin-right:0px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+	
+
+.social_panel li.last,
+.main_panel li.last {
+	margin:0;
+}
+
+/* INFO LIST */
+
+ul.info {
+	clear:right;
+	margin-top:20px;
+}
+ul.info li {
+
+	color: #333333;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 7px;
+    padding-left: 25px;
+}
+ul.info li a {
+	margin:0;
+	text-decoration:none;
+	color:#333;
+}
+ul.info li a:hover {
+	text-decoration:none;
+	color:#000;
+}
+	
+ul.info li.phone {
+	background:url(../img/cellphone.gif) no-repeat left center;
+}
+ul.info li.info {
+	background:url(../img/man.gif) no-repeat left center;
+	
+}
+ul.info li.email {
+	background:url(../img/mail.gif) no-repeat left center;
+	
+}
+ul.info li.address {
+	background:url(../img/home.gif) no-repeat left center;
+}
+ul.info li.website {
+	background:url(../img/pointer.gif) no-repeat left center;
+}
+
+
+/* SKILLS */
+#skills ul {
+	margin-top:10px;
+}
+#skills ul li {
+	float:left;
+	width:280px;
+	background:url(../img/bull_01.png) no-repeat left center;
+	padding-left:20px;
+	font-family: 'Oswald', Tahoma sans-serif;
+	font-size:22px;
+	color:#333;
+	font-weight:bold;
+	margin-bottom:10px;
+	padding-bottom:1px;
+}
+
+#skills ul li span {
+	float:right;
+	font-family: 'Oswald', Tahoma sans-serif;
+	font-size:18px;
+	color:#333;
+	font-weight: 300;
+	margin-right:30px;
+	background:#ccc;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	padding:3px 5px;
+}
+#skills ul li.last span {
+	margin-right:0px;
+}
+#skil2ls ul li span:hover {
+	background:#a7dbd8;
+}
+
+/* WORK EXPERIENCE & EDUCATION */
+#work_experience,
+#education {
+	
+}
+#work_experience {
+	margin-right:30px;
+}
+.item {
+	padding:0px 10px;
+	border-left:8px solid #154890;
+	margin-top:10px;
+	padding-right:0px;
+}
+.item h4 span {
+	float:right;
+	font-family: 'Oswald', Tahoma sans-serif;
+	font-size:22px;
+	color:#333;
+	font-weight:600;
+	margin-right:0px;
+	background:#ccc;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	padding:3px 5px;
+}
+.item h4 span:hover {
+	background:#D44413;
+}
+.item h5 {
+	margin:5px 0;
+}
+.item p {
+	font-size:1em;
+	color:#333;
+	line-height:1.4em;
+	text-align:justify;
+}
+
+
+/* PORTFOLIO */
+
+
+
+/* CONTACT FORM */
+#contact_form {
+	margin-right:30px;
+	float:right;
+	width:500px;
+}
+#contact_form label {
+	
+}
+#contact_form label span {
+	color:#f38630;
+	font-size:18px;
+}
+#contact_form input.text_field {
+	float:left;
+	width:140px;
+	background:#fff;
+	border:1px solid #25A1D9;
+	font-size:11px;
+	color:#333;
+	padding:5px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+#contact_form input.text_field:focus {
+	border:1px solid #13536F;
+}
+#contact_form textarea {
+	width:258px;
+	height:52px;
+	background:#fff;
+	border:1px solid #25A1D9;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#333;
+	padding:5px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+#contact_form textarea:focus {
+	border:1px solid #13536F;
+}
+#contact_form input#submit {
+	border:1px solid #25A1D9;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	color:#fff;
+	background:#1E83B1;
+	background:-webkit-gradient(linear, left bottom, left top, color-stop(0, rgb(37,160,217)), color-stop(0.93, rgb(19,83,111)));
+	background:-moz-linear-gradient( center bottom, rgb(37,160,217) 0%, rgb(19,83,111) 93%);
+	padding:4px;
+	font-size:11px;
+	cursor:pointer;
+	float:right;
+}
+#contact_form input#submit:hover {
+	border:1px solid #13536F;
+}
+#contact_form input#submit:focus {
+	background:-webkit-gradient(linear, left bottom, left top, color-stop(0, rgb(19,83,111)), color-stop(0.93, rgb(37,160,217)));
+	background:-moz-linear-gradient( center bottom, rgb(19,83,111) 0%, rgb(37,160,217) 93%);
+}
+
+#contact_form #contactme .error-input ,
+#contact_form #contactme .error-both input,
+#contact_form #contactme .error-same input { 
+	border:1px solid #f38630;
+	}
+#contact_form #contactme .error-div {
+	color:#333;
+	font-size:11px;
+	float:left;
+	padding-top:4px;
+	}
+.confirmation {
+	color:#333;
+	font-family: 'Yanone Kaffeesatz', arial, serif;
+	font-size:22px;
+	padding-top:10px;
+	}
+
+#contact_form #contactme .error-same, #contact_form #contactme .error-both { color:#f00; }
+
+
+
+/*
+Back to top button 
+*/
+
+#back-top {
+bottom: 0;
+display: none;
+height: 75px;
+position: fixed;
+right: 18px;
+text-decoration: none;
+width: 50px;
+z-index: 1;
+}
+
+#back-top a {
+	display: block;
+	text-align: center;
+	font: 11px/100% Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #bbb;
+	/* background color transition */
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+}
+#back-top a:hover {
+	color: #000;
+}
+/* arrow icon (span tag) */
+#back-top span {
+	width: 50px;
+
+	display: block;
+	margin-bottom: 7px;
+	background: #777 url(../img/up-arrow.png) no-repeat center center;
+	/* rounded corners */
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	/* background color transition */
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+	height: 50px;
+
+}
+#back-top a:hover span {
+	background-color: #D44413;
+}
+div.content{background: #fff;
+padding: 20px;}
